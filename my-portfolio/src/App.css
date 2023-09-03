@@ -1,0 +1,13 @@
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5; /* Light gray background for the entire app */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* You can add more global styles here if needed */

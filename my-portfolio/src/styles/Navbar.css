@@ -1,0 +1,22 @@
+/* src/components/Navbar.css */
+.navbar {
+    background-color: #ff69b4; /* My Melody Pink */
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+  }
+  
+  .navbar-link {
+    color: #fff; /* White text */
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+    transition: transform 0.3s; /* Smooth transition for transform */
+  }
+  
+  /* Add a hover effect with text expansion */
+  .navbar-link:hover {
+    color: #fff; /* White text */
+    transform: scale(1.2); /* Slightly expand the text on hover */
+  }
+  
