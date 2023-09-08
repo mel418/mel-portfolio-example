@@ -1,0 +1,29 @@
+/* src/styles/Experience.css */
+.container {
+    background-color: #ffffff; /* White background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 100%; /* Use the full width of the viewport */
+    margin: 0 auto;
+    color: #000; /* Black text */
+  }
+  
+  h1 {
+    color: #ff69b4; /* My Melody Pink */
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  /* Update the color for headings and paragraphs as needed */
+  h2 {
+    color: #000; /* Black text */
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  

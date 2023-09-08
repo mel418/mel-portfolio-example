@@ -2,7 +2,7 @@
 import React from 'react';
 import '../styles/Main.css'; // Import your CSS file
 
-const Main = () => {
+export const Main = () => {
   return (
     <div className="container">
       <h1>Hello, I'm Melody</h1>
