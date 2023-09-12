@@ -7,6 +7,7 @@
     max-width: 100%; /* Use the full width of the viewport */
     margin: 0 auto;
     color: #000; /* Black text */
+    margin-top: 50px;
   }
   
   h1 {
@@ -18,12 +19,18 @@
   /* Update the color for headings and paragraphs as needed */
   h2 {
     color: #000; /* Black text */
-    font-size: 24px;
+    font-size: 32px;
     margin-top: 20px;
   }
   
   p {
-    font-size: 16px;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  ul {
+    text-align: left;
+    font-size: 18px;
     margin-bottom: 10px;
   }
   

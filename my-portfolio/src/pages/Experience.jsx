@@ -14,45 +14,85 @@ const Experience = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: 'white', color: 'black' }}
-          contentArrowStyle={{ borderRight: '7px solid  white' }}
+          contentArrowStyle={{ borderRight: '7px solid  black' }}
           date="August 2021 - Present"
           iconStyle={{ background: '#ff69b4', color: 'white' }}
         >
           <h3 className="vertical-timeline-element-title">Target</h3>
-          <h4 className="vertical-timeline-element-subtitle">Retail Employee</h4>
-          <p>
-            I have been working at Target since August 2021. During my time there, I have gained valuable experience in various aspects of retail operations and customer service.
-          </p>
+          <h4 className="vertical-timeline-element-subtitle">Fulfillment Expert</h4>
+          <ul>
+            <li>
+              Collaborate in a team of 5, exceeding daily goals by fulfilling 2000 online orders
+            </li>
+            <li>
+            Maintain organized, safe workspace for accurate fulfillment
+            </li>
+            <li>
+            Provide exceptional guest service, resolving issues promptly
+            </li>
+          </ul>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: 'white', color: 'black' }}
-          contentArrowStyle={{ borderRight: '7px solid  white' }}
-          date="Present"
-          iconStyle={{ background: '#ff69b4', color: 'white' }}
-        >
-          <h3 className="vertical-timeline-element-title">Secretary of Women in Coding at CSULB</h3>
-          <h4 className="vertical-timeline-element-subtitle">Student Organization</h4>
-          <p>
-            I currently hold the position of Secretary at Women in Coding, a student organization at CSULB. In this role, I assist in organizing events, workshops, and activities to promote diversity in the field of computer science.
-          </p>
-        </VerticalTimelineElement>
-
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: 'white', color: 'black' }}
-          contentArrowStyle={{ borderRight: '7px solid  white' }}
+          contentArrowStyle={{ borderRight: '7px solid  black' }}
           date="April 2023"
           iconStyle={{ background: '#ff69b4', color: 'white' }}
         >
           <h3 className="vertical-timeline-element-title">Marinahacks 3.0 Hackathon</h3>
           <h4 className="vertical-timeline-element-subtitle">Second Place Winner</h4>
+          <ul>
+            <li>
+            Developed Ser Tibbles, a music recommendation Discord bot using Python and Discord.py
+            </li>
+            <li>
+            Utilized the Spotify API for song suggestions based on user input
+            </li>
+            <li>
+            Collaborated with a team of 4, secured 2nd place in the entertainment category
+            </li>
+          </ul>
           <p>
-            I participated in the Marinahacks 3.0 hackathon and secured the second-place position. My team and I developed a music recommendation Discord bot called "Ser Tibbles" using Python and Discord.py. It was an exciting experience, and we were proud of our achievement.
+            Github: <span><a href='https://github.com/mel418/Discord-Music-Rec-Bot' target='_blank'>Discord-Music-Rec-Bot</a></span>  
           </p>
         </VerticalTimelineElement>
-        {/* Add more timeline items for additional experiences */}
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: 'white', color: 'black' }}
+          contentArrowStyle={{ borderRight: '7px solid  black' }}
+          date="Present"
+          iconStyle={{ background: '#ff69b4', color: 'white' }}
+        >
+          <h3 className="vertical-timeline-element-title">Secretary of Women in Coding (WIC) at CSULB</h3>
+          <h4 className="vertical-timeline-element-subtitle">Student Organization</h4>
+          <ul>
+            <li>
+              Proficiently manage communication by sending out emails and newsletters to members using MailChimp with one-week advance notice
+            </li>
+            <li>
+              Ensure efficient and organize meetings by effectively organizing and minute-taking
+            </li>
+            <li>
+              Contributing to the organization by assisting in the planning and execution of social events
+            </li>
+          </ul>
+        </VerticalTimelineElement>
+        
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: 'white', color: 'black' }}
+          contentArrowStyle={{ borderRight: '7px solid  black' }}
+          date="June 2023 - Present"
+          iconStyle={{ background: '#ff69b4', color: 'white' }}
+        >
+          <h3 className="vertical-timeline-element-title">The Odin Project</h3>
+          <h4 className="vertical-timeline-element-subtitle">Web Development</h4>
+          <p>
+            Working on various web development projects and learning new technologies through The Odin Project.
+          </p>
+        </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
   );

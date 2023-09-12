@@ -1,4 +1,4 @@
-/* src/components/Main.css */
+/* src/styles/Main.css */
 .container {
   text-align: center;
   background-color: #ffffff; /* White background */
@@ -7,16 +7,36 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   max-width: 600px;
   margin: 0 auto;
+  /* margin-top: 50px; */
 }
 
 h1 {
   color: #ff69b4; /* My Melody Pink */
-  font-size: 28px;
+  font-size: 32px;
   margin-bottom: 10px;
 }
 
+h2 {
+  font-size: 40px;
+}
+
 p {
-  font-size: 16px;
+  font-size: 24px;
   margin-bottom: 10px;
   color: #000; /* Black color */
+}
+
+.contact a {
+  font-size: 24px;
+}
+
+/* Add margin to social links for spacing */
+.social-links a:not(:last-child) {
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.objective {
+  width: 50%; /* Set the width to the desired value */
+  margin: 0 auto; /* This centers the div horizontally */
+  text-align: center; /* This centers the text inside the div horizontally */
 }

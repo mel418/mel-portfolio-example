@@ -4,13 +4,21 @@
     display: flex;
     justify-content: center;
     padding: 10px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%; /* Make the navbar span the full width of the viewport */
+    height: 40px;
+    z-index: 100;
+
   }
   
   .navbar-link {
     color: #fff; /* White text */
     text-decoration: none;
     margin: 0 10px;
-    font-size: 18px;
+    font-size: 28px;
     transition: transform 0.3s; /* Smooth transition for transform */
   }
   
