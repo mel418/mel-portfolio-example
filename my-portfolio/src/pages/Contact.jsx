@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../Navbar'; // Import the Navbar component
+import '../styles/Contact.css';  
 
 export const Contact = () => {
   return (
