@@ -2,21 +2,20 @@
 body, h1, h2, p, a {
   margin: 0;
   padding: 0;
-  
 }
 
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #fff;
+  background-color: #fce6e6; /* Light pink background color */
   color: #333;
-  margin-top: 30px;
+  margin: 0;
+  padding: 0;
 }
 
 .main {
-  max-width: 60vw;
-  margin: 5vh auto;
+  max-width: 80vw; /* Wider content container */
+  margin: 6vh auto;
   padding: 20px;
-
 }
 
 header {
@@ -27,7 +26,6 @@ header {
 .main h1 {
   font-size: 4rem;
   color: #ff66b2; /* Pink color */
-
 }
 
 .main h2 {
@@ -47,15 +45,42 @@ p {
   margin-top: 20px;
 }
 
+/* Portfolio button styling as a mini navbar */
+.portfolio-buttons {
+  display: flex;
+  justify-content: center;
+  background-color: #ff66b2; /* Pink background color for the buttons */
+  padding: 10px 0; /* Adjust the padding */
+}
+
+.portfolio-buttons button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin: 0 10px; /* Add some spacing between buttons */
+  transition: transform 0.3s;
+}
+
+.portfolio-buttons button:hover{
+  color: white;
+  transform: scale(1.2);
+}
+
+/* Updated styles for the project list */
 .project-list {
   display: grid;
-  grid-template-rows: auto 1fr 1fr;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-rows: auto 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
   grid-auto-rows: 1fr;
   gap: 2rem 1rem;
   margin-top: 20px;
+  padding: 20px; /* Add padding around the project list */
+  background-color: white; /* White background for projects */
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Drop shadow for cards */
 }
-
 
 @media screen and (max-width: 1000px) {
   .project-list {
@@ -70,19 +95,17 @@ p {
 .project-list > h2 {
   font-size: 1.4rem;
   grid-column: 1 /-1;
-
 }
 
 .project {
-  max-width: 80%; /* Add a maximum width if necessary */
-  height: auto; /* Auto-adjust the height to content */
+  max-width: fit-content;
+  height: auto;
   background-color: #ff66b2; /* Pink color */
   border-radius: 8px;
   padding: 20px;
-  margin: 20px; 
-  color: #fff; /* White text color */
+  /* margin: 20px; */
+  color: white; /* White text color */
 }
-
 
 .project h3 {
   font-size: 1.2rem;
@@ -94,13 +117,13 @@ p {
 }
 
 .project ul {
-  font-size: 1rem; /* Adjust the font size for unordered lists */
+  font-size: 1rem;
 }
 
 .project a {
   display: block;
   margin-top: 10px;
-  color: #fff;
+  color: white;
   text-decoration: none;
   font-weight: bold;
   font-size: 1rem;

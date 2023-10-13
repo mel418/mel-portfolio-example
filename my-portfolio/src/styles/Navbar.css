@@ -16,7 +16,7 @@
   color: #fff; /* White text */
   text-decoration: none;
   margin: 0 10px;
-  font-size: 28px;
+  font-size: 2rem;
   transition: transform 0.3s; /* Smooth transition for transform */
 }
 
