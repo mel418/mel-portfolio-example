@@ -1,19 +1,19 @@
 /* src/styles/Experience.css */
-.container {
-    background-color: #ffffff; /* White background */
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    max-width: 100%; /* Use the full width of the viewport */
-    margin: 0 auto;
-    color: #000; /* Black text */
-    margin-top: 50px;
+.container.experience {
+  background-color: #ffffff; /* White background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 100%; /* Use the full width of the viewport */
+  /* margin: 12vh auto; */
+  color: #000; /* Black text */
+  margin-top: 50px;
   }
   
-.container .title {
+h1.title {
   color: #ff69b4; /* My Melody Pink */
-  font-size: 2.5rem;
-  margin-bottom: 10px;
+  font-size: 1rem;
+  margin: 1vh 0;
 }
 
 /* Update the color for headings and paragraphs as needed */

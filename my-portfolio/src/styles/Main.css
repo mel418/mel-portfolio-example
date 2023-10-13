@@ -6,7 +6,7 @@ body, h1, h2, p, a {
 
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #fce6e6; /* Light pink background color */
+  /* background-color: #fce6e6;  */
   color: #333;
   margin: 0;
   padding: 0;
@@ -39,25 +39,33 @@ p {
 
 .about {
   margin-top: 20px;
+  max-width: 50vw;
 }
 
 .portfolio {
   margin-top: 20px;
+  display: grid;
+  justify-content: center;
 }
 
 /* Portfolio button styling as a mini navbar */
 .portfolio-buttons {
   display: flex;
+  /* width: 50vw; */
   justify-content: center;
+  align-items: center;
   background-color: #ff66b2; /* Pink background color for the buttons */
-  padding: 10px 0; /* Adjust the padding */
+  padding: 10px; /* Adjust the padding */
+  border-radius: 10px;
+  max-width: fit-content;
+
 }
 
 .portfolio-buttons button {
   background: none;
   border: none;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   cursor: pointer;
   margin: 0 10px; /* Add some spacing between buttons */
   transition: transform 0.3s;
@@ -70,10 +78,12 @@ p {
 
 /* Updated styles for the project list */
 .project-list {
+  width: 50vw;
   display: grid;
   grid-template-rows: auto 1fr;
-  grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 30%));
   grid-auto-rows: 1fr;
+  justify-content: center;
   gap: 2rem 1rem;
   margin-top: 20px;
   padding: 20px; /* Add padding around the project list */
@@ -105,6 +115,7 @@ p {
   padding: 20px;
   /* margin: 20px; */
   color: white; /* White text color */
+  justify-self: center;
 }
 
 .project h3 {

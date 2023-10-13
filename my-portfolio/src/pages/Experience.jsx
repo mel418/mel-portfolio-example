@@ -8,7 +8,7 @@ import 'react-vertical-timeline-component/style.min.css';
 
 const Experience = () => {
   return (
-    <div className="container">
+    <div className="container experience">
       <h1 className='title'>Work and Study Experience</h1>
       <VerticalTimeline>
         <VerticalTimelineElement
